@@ -1,0 +1,139 @@
+{
+	"address": "0xAb5A09E988f7876856dA1490270C10B76f6748b1",
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "_description",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_source",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_image",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_secimg",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_readAmout",
+					"type": "uint256"
+				}
+			],
+			"name": "addHistory",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_upvotes",
+					"type": "uint256"
+				}
+			],
+			"name": "downVoteHistory",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_index",
+					"type": "uint256"
+				}
+			],
+			"name": "getHistory",
+			"outputs": [
+				{
+					"internalType": "address payable",
+					"name": "",
+					"type": "address"
+				},
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getHistoryLenght",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_index",
+					"type": "uint256"
+				}
+			],
+			"name": "getHistoryPay",
+			"outputs": [],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_upvotes",
+					"type": "uint256"
+				}
+			],
+			"name": "upVoteHistory",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+  }

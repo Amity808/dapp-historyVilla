@@ -1,0 +1,32 @@
+
+body{
+  background-color: #070305;
+  color: #efdce4;
+}
+
+.gradient {
+  color: linear-gradient(to right, rgb(187, 247, 208), rgb(34, 197, 94));
+}
+
+.btncolor {
+  background-color: #00f090;
+}
+.btnsecond {
+  color: #000000;
+}
+
+.btncolor:hover {
+  color: #316d55;
+}
+
+.btnsecond:hover {
+  color: #316d55;
+  
+}
+
+.imagebg {
+  background-image: url(../src/assets/bbblurry.svg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
