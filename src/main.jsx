@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 import '../src/polyfilss.js'
+import "react-toastify/dist/ReactToastify.css";
 import '@rainbow-me/rainbowkit/styles.css'
 import { getDefaultWallets ,RainbowKitProvider } from '@rainbow-me/rainbowkit'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi'
@@ -40,7 +41,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider chains={chains}>
         {/* <BrowserRouter> */}
-          <ToastContainer position={'bottom-center'} />
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          />
             <App />
           
         {/* </BrowserRouter> */}
